@@ -964,7 +964,9 @@ nav.en {
 }
 
 ul#menu {
-	margin: 5px;
+	margin: 3vw 1%;
+  width: 98%;
+  justify-content: space-around;
 }
 
 ul#menu li {
@@ -973,9 +975,9 @@ ul#menu li {
 }
 
 ul#menu li a {
-	font-size: 3.5vw;
-	line-height: 3.5vw;
-	padding: 0 2vw;
+	font-size: 3.2vw;
+	line-height: 3.2vw;
+	padding: 0 1vw;
 }
 
 #container {
