@@ -834,6 +834,18 @@ figure.menbers_img {
 	width: 20%;
 }
 
+figure.menbers_img2 {
+	float: right;
+	margin: 0 15px 30px 10px;
+	width: 20%;
+}
+
+figure.menbers_img3 {
+	float: right;
+	margin: 0 15px 30px 10px;
+	width: 30%;
+}
+
 ul.menbers {
 	margin: 20px 10px 5px 24%;
 	padding: 0;
