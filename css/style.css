@@ -879,6 +879,31 @@ li.asterisk::before {
 	top: 0;	
 }
 
+.container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr); /* セルの数に応じて調整 */
+  gap: 2px; /* セル間の間隔 */
+}
+
+.cell {
+  /* border: 1px solid black; */
+  display: grid;
+  justify-content: center; /* セル内のオブジェクトを中央に配置 */
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* セルの数に応じて調整 */
+  gap: 2px; /* セル間の間隔 */
+}
+
+.cell {
+  /* border: 1px solid black; */
+  display: grid;
+  justify-content: flex-end; /* セル内のオブジェクトを右寄せに配置 */
+}
+
+
 /* Access */
 
 figure.ggmap {
